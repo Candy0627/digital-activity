@@ -66,8 +66,8 @@ export default {
             layerShow:false,
             show:true,
             curId:0,
-            _domPhone:'',
-            _domEmail:'',
+            phone:'',
+            email:'',
             items:[{
                 id:"001",
                 nav:"台灣",
@@ -77,25 +77,25 @@ export default {
             },{
                id:"002",
                 nav:"香港",
-                areaCode:'887',
+                areaCode:'852',
                 phone:'18896600951',
                 email:'12345@qq.com'
             },{
                 id:"003",
                 nav:"澳門",
-                areaCode:'888',
+                areaCode:'853',
                 phone:'18896600951',
                 email:'12346@qq.com'
             },{
                 id:"004",
                 nav:"新加坡",
-                areaCode:'889',
+                areaCode:'65',
                 phone:'18896600951',
                 email:'12347@qq.com'
             },{
                 id:"005",
                 nav:"馬來西亞",
-                areaCode:'8810',
+                areaCode:'60',
                 phone:'18896600951',
                 email:'12348@qq.com'
             }]
@@ -104,7 +104,6 @@ export default {
     methods: {
         tab (index) {
             this.curId = index;
-            this._domPhone = document.querySelector();
         },
         // appointSuccessPop() {
         //     var that = this;
