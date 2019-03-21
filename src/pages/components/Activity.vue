@@ -22,10 +22,10 @@
                     <form action="">
                         <div class="c_width">
                             <span>+{{item.areaCode}}</span>
-                            <input type="text" placeholder="请输入电话号码" class="phone">
+                            <input type="text" placeholder="请输入电话号码" class="phone" v-model="phone">
                         </div>
                         <div class="c_width">
-                            <input type="text" placeholder="请输入email" class="email">
+                            <input type="text" placeholder="请输入email" class="email" v-model="email">
                         </div>
                     </form>
                 </div>
@@ -66,6 +66,8 @@ export default {
             layerShow:false,
             show:true,
             curId:0,
+            _domPhone:'',
+            _domEmail:'',
             items:[{
                 id:"001",
                 nav:"台灣",
@@ -101,7 +103,8 @@ export default {
     },
     methods: {
         tab (index) {
-            this.curId = index
+            this.curId = index;
+            this._domPhone = document.querySelector();
         },
         // appointSuccessPop() {
         //     var that = this;
@@ -114,12 +117,12 @@ export default {
         // },
         fbShare () {
             (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.12&appId=你的APPID&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.12&appId=你的APPID&autoLogAppEvents=1';
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
             // 初始化
             FB.init({
                 appId:'',
