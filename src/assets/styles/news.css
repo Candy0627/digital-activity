@@ -1,0 +1,424 @@
+
+/* 子页面 */
+.sub-nav {
+    position: fixed;
+    z-index: 999999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .72rem;
+    background: rgba(255,255,255,.3);
+    border-bottom: 1px solid #fff;
+}
+.sub-nav ul li a{
+    color: #333333
+}
+.sub-nav .download {
+    border-left: 1px solid #333333;
+}
+
+.wrapper .newsCenter .content ol {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    overflow: hidden;
+}
+.pic_img{
+    text-align: center;
+}
+.wrapper .newsCenter .content ol li {
+    width: 100%;
+    height: 1.71rem;
+    text-align: left;
+    list-style-type: none;
+    border-bottom: 1px solid #c8c8c8;
+    float: left;
+}
+.wrapper .newsCenter .content .new_ol li:nth-child(1){
+    border-top: 1px solid #00a097;
+    margin-top: .63rem
+}
+.wrapper .newsCenter .content ol li img {
+    margin-top: .26rem;
+    width: 2rem;
+    height: 1.20rem;
+    float: left;
+    display: inline-block;
+}
+
+.wrapper .newsCenter .content ol li span {
+    font-size: .2rem
+}
+
+.wrapper .newsCenter .content ol li span.news {
+    display: inline-block;
+    font-size: .18rem;
+    float: left;
+    width: .84rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    background: #00a097;
+    -moz-border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    border-radius: .3rem;
+    margin-top: .3rem;
+}
+
+.wrapper .newsCenter .content ol li span {
+    display: inline-block;
+    margin: .16rem 0
+}
+
+.wrapper .newsCenter .content ol li dl {
+    margin: .08rem .2rem 0 .32rem;
+    float: left;
+    width: 87%
+}
+
+.wrapper .newsCenter .content ol li dl dt {
+    width: 5.82rem;
+    margin-top: .23rem;
+    font-size: .2rem;
+    font-weight: bold;
+    color: #555555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wrapper .newsCenter .content ol li .pad {
+    padding: 0 .4rem;
+}
+
+.wrapper .newsCenter .content ol li dl dt span {
+    background: #fe902a;
+    width: .54rem;
+    height: .2rem;
+    border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    font-size: .14rem;
+    color: #fff;
+    text-align: center;
+    margin-right: .10rem;
+    display: inline-block
+}
+
+.wrapper .newsCenter .content ol li dl dt span.latest_news {
+    background: #72d196
+}
+
+.wrapper .newsCenter .content ol li dl a {
+    text-decoration: none;
+}
+
+.wrapper .newsCenter .content ol li dl .next {
+    width: .27rem;
+    height: .4rem;
+    background: url(../images/next.png);
+    background-size: 100% 100%;
+    display: none;
+    float: right;
+}
+
+.wrapper .newsCenter .content ol li dl a .text_in {
+    width: 90%
+}
+
+.wrapper .newsCenter .content ol li dl dd {
+    font-size: .14rem;
+    color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.wrapper .newsCenter .content ol li dl dd a {
+    width: .27rem;
+    height: .4rem;
+    float: left;
+}
+
+.wrapper .newsCenter .content ol li dl dd {
+    padding-left: 0;
+    margin-left: 0
+}
+
+.wrapper .newsCenter .content ol li dl dd:nth-child(1) {
+    width: 5.82rem
+}
+
+.wrapper .newsCenter .content ol li dl dd:nth-child(2) {
+    width: 100%;
+    height: .69rem;
+    float: left;
+    margin-top: .21rem;
+    color: #777777;
+    font-size: .16rem;
+}
+
+.wrapper .newsCenter .content ol li dl dd:nth-child(3) {
+    width: 1.67rem;
+    height: 1.3rem;
+    text-align: right;
+    float: left;
+    position: relative;
+}
+
+.wrapper .newsCenter .content ol li dl dd:nth-child(3) .time {
+    width: .56rem;
+    height: .84rem;
+    background: #476977;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wrapper .newsCenter .content ol li dl dd i {
+    width: .22rem;
+    height: .22rem;
+    display: inline-block;
+    background: url(../images/newscenter_time.jpg) no-repeat center;
+    vertical-align: bottom;
+    margin-right: .06rem
+}
+
+
+
+
+/* 新闻详情 */
+.sub .sub_title {
+    width: 9.5rem;
+    margin: .62rem auto 0;
+    height: 1rem;
+    line-height: .2rem;
+    text-align: left
+}
+.sub .sub_title h2 {
+    font-size: .3rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.sub .sub_title span {
+    font-size: .16rem;
+    color: #bbbbbb;
+}
+.sub .sub_title span em{
+    width: .18rem;
+    height: .18rem;
+    display: inline-block;
+    background: url(../images/time.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right: .08rem;
+    vertical-align: middle;
+}
+.second span {
+    display: inline-block;
+}
+
+.second>span {
+    width: 100%;
+    height: 2.3rem;
+    text-align: center;
+    border-bottom: 1px solid #00a097;
+    margin-bottom: .21rem;
+    position: relative;
+}
+
+.sub {
+    width: 100%;
+    display: inline-block;
+    background: url(../img/news_bg.jpg) repeat;
+    text-align: left;
+     
+}
+
+.sub p {
+    font-size: .18rem;
+    color: #333333;
+    line-height: .4rem;
+    width: 9.5rem;
+    text-align:left;
+    text-indent: .4rem;
+}
+.sub p>img{
+    margin: .2rem 0;
+}
+.sub>img {
+    margin-top: 56px;
+    margin-bottom: 35px;
+}
+
+.sub #tab {
+    text-align: center;
+    margin: .57rem auto .42rem;
+}
+
+.sub #tab a {
+    font-size: .16rem;
+    color: #666666;
+}
+
+.sub #tab a:hover {
+    text-decoration: underline;
+}
+
+.sub #tab a:nth-child(2) {
+    margin: 0 1.3rem;
+}
+
+.sub #tab .tab {
+    width: 100%;
+    height: 50px;
+    border-bottom: 4px solid #14263e;
+    text-align: center;
+}
+
+.sub #tab .tab ul {
+    width: 480px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.sub #tab .tab ul li {
+    float: left;
+    color: #14263e;
+    font-size: 22px;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sub #tab .tab ul li a.on {
+    color: #fff;
+    width: 120px;
+    height: 50px;
+    background: url(../images/tab_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.sub #tab .con dl,
+dd {
+    width: 100%;
+}
+
+.sub #tab .con dd {
+    color: #506076;
+    font-size: 22px;
+    height: 120px;
+    line-height: 120px;
+    border-bottom: 1px solid #14263e;
+}
+
+.sub #tab .con dd img {
+    margin: 43px 24px;
+}
+
+.sub #tab .con dd span {
+    display: inline-block;
+}
+
+.sub #tab .con dd span span:nth-child(1) {
+    width: 79%;
+    text-align: left;
+}
+
+.sub #tab .con dd span span:nth-child(2) {
+    width: 20%;
+    text-align: right;
+}
+
+.sub #tab .con div dl dd a:hover,
+.sub #tab .con div dl dd a:active,
+.sub #tab .con div dl dd a:visited {
+    background: url(../img/news_hover.png) no-repeat;
+    width: 100%;
+    height: 120px;
+}
+
+.sub #tab>img {
+    margin: 33px auto;
+    cursor: pointer;
+}
+
+.sub_con .title span {
+    display: inline-block;
+}
+
+.sub_con .title {
+    width: 46%;
+    margin: .62rem auto 0;
+    height: 1rem;
+    line-height: .2rem
+}
+
+.title .l,
+.title .r,
+.title h2 {
+    float: left;
+}
+
+.sub_con .title h2 {
+    font-size: .46rem;
+    font-weight: bold;
+    margin: 0 .38rem;
+    color: #000;
+    display: inline-block;
+    width: 41%;
+    text-align: center;
+}
+.sub_con .title h2 .t_bot{
+    font-size: .18rem;
+    margin: 0 .79rem;
+    color: #00a097;
+    width: 66%;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+.sub_con .title .l {
+    background: url(../images/l.png) no-repeat;
+    background-size: 100% 100%;
+    width: 1.74rem;
+    height: .17rem;
+    margin-top: .2rem
+}
+
+.sub_con .title .r {
+    background: url(../images/r.png) no-repeat;
+    background-size: 100% 100%;
+    width: 1.74rem;
+    height: .17rem;
+    margin-top: .2rem
+}
+.breadcrumb {
+    margin-top: .52rem
+}
+.breadcrumb i{
+    width: .13rem;
+    height: .18rem;
+    display: inline-block;
+    background: url(../images/locate.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right: .05rem
+}
+h5{
+    color: #666666;
+    font-size:.18rem;
+}
+.second>span .strong{
+    width: .5rem;
+    height: .5rem;
+    display: inline-block;
+    background: url(../images/back.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right: .05rem;
+    position: absolute;
+    top: 38%;
+    left: 18%;
+    cursor: pointer;
+}

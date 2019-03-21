@@ -1,0 +1,186 @@
+html,
+body,
+ul,
+li,
+dd,
+dl,
+p,
+h2,
+h3,
+h4,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    -webkit-appearance : none ;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::placeholder {
+    color: #c8c8c8;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+body {
+    -webkit-text-size-adjust:100%;  
+}
+
+.message {
+    padding: 10px 15px; color: #FF6D75;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+/* self add */
+.banner {
+    overflow: hidden;
+    position: relative;
+}
+
+img.play {
+    width: .5rem;
+    height: .73rem;
+    position: absolute;
+    left: 50.8%;
+    top: 56.2%;
+    margin-left: -.25rem;
+    margin-top: -.365rem;
+    cursor: pointer;
+    z-index: 2;
+    -webkit-animation: bottom_out .8s ease-in-out .3s backwards;
+            animation: bottom_out .8s ease-in-out .3s backwards;
+}
+.container .n_left ul{
+    width: 100%
+}
+.container .n_left ul li{
+    text-align: left;
+}
+.container .n_left ul li.mart38{
+    margin-top: .27rem
+}
+.container .n_left ul li>img{
+    width: 3rem;
+    height: 1.5rem
+}
+.container .n_left ul li dl{
+    width: 5rem;
+    padding-left: .2rem
+}
+.container .n_left ul li dt{
+    font-size:.18rem;
+    font-weight: bold;
+    color:#444444;    
+}
+.container .n_left ul li dd:nth-of-type(1){
+    font-size: .16rem;
+    color: #666666;
+    margin:.1rem auto .23rem;
+}
+.container .n_left ul li dd a,.strategy .right ul li dl dd a{
+    color: #fff
+}
+.container .n_left ul li dd:nth-of-type(2){
+    width: 1.3rem;
+    height: .36rem;
+    line-height: .36rem;
+    background: #00a097;
+    border-radius: .01rem;
+    color:#fff;
+    font-size: .18rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding-left: .15rem;
+    cursor: pointer;
+}
+.container .n_left ul li dd:nth-of-type(2) em{
+    display: inline-block;
+}
+/* 向右的三角形 */
+.triangle-right{
+    width: 0px;
+    height: 0px;
+    border-top: .06rem solid transparent;
+    border-bottom: .06rem solid transparent;
+    border-left: .08rem solid #fff;
+    margin-left: .45rem;
+    margin-top: .06rem;
+}
+.container .n_right{
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: 1;
+}
+.container .n_right .top img{
+    width: 3rem;
+    height: 5rem
+}
+.container .n_right .top em{
+    width: 1.45rem;
+    height: .34rem;
+    cursor: pointer;
+    position: absolute;
+    left: .78rem;
+    bottom: 2.8rem;
+    background: url(../../assets/imgs/btn_go.png) no-repeat;
+    background-size:100% 100%
+}
+.container .n_right >img{
+    width: 3rem;
+    height: 2.5rem;
+    margin-top: .1rem
+}
+.border_bot{
+    display: block;
+    width: 100%;
+    height: .03rem;
+    background: #00a097
+}
+.container >div{
+    position: relative;
+    /*height: 7.14rem;*/
+}
+
