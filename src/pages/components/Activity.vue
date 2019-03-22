@@ -44,11 +44,11 @@
 注：參與活動請務必填寫正確的行動電話號碼和E-mail，確認提交后不可再次修改，避免漏接信息。
         </div>
         <!-- layer弹出层 -->
-        <div class="layer-wrap" v-if="layerShow" @click="layerShow = !layerShow">
+        <!-- <div class="layer-wrap" v-if="layerShow" @click="layerShow = !layerShow">
             <div class="appointSuccessPop">
             <i class="close"></i>
             </div>
-        </div>
+        </div> -->
         <!-- facebook 分享 -->
         <div id="fb-root"></div>
     </div>
